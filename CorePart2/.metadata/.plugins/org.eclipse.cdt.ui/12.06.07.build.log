@@ -1,0 +1,5 @@
+10:48:08 **** Clean-only build of configuration Debug for project 12.06.07 ****
+rm -rf src/12.06.07.o 12.06.07.exe src/12.06.07.d 
+
+10:48:08 Build Finished (took 67ms)
+

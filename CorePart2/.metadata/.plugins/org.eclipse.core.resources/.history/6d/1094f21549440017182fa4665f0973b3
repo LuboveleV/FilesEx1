@@ -1,0 +1,27 @@
+/*
+ * Store.h
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef STORE_H_
+#define STORE_H_
+#include<string>
+#include<iostream>
+#include<vector>
+#include"Product.h"
+
+using namespace std;
+
+
+class Store {
+private:
+	vector<Product*> products;
+	double oborot;
+public:
+	Store();
+	virtual ~Store();
+};
+
+#endif /* STORE_H_ */

@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : STLExamples.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<vector>
+#include<map>
+using namespace std;
+
+int main() {
+	// 2 задача  - коя заплата колко пъти се среща; всяка заплата колко души са я взели
+    // 1299 4550 445 5667 888 4550  888
+
+	int sal[] = { 1299,4550,445,5667,888,4550,1299};
+	vector<int> salaries(sal,sal+7);
+
+
+return 0;
+}
+

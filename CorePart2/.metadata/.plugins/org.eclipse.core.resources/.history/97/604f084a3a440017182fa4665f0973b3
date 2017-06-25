@@ -1,0 +1,17 @@
+/*
+ * Product.h
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef PRODUCT_H_
+#define PRODUCT_H_
+
+class Product {
+public:
+	Product();
+	virtual ~Product();
+};
+
+#endif /* PRODUCT_H_ */

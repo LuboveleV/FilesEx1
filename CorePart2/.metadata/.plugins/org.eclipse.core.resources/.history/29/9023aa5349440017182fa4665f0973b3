@@ -1,0 +1,58 @@
+//============================================================================
+// Name        : Main.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include"Product.h"
+#include<vector>
+#include"pugixml.hpp"
+
+using namespace std;
+double dailyOborotMagazine(vector<Product*>& example){
+	double daylyOborot =0;
+	for(unsigned int i =0;i<=example.size();i++){
+		daylyOborot=+example.at(i)->getPrice()*example.at(i)->getSoldCounter();
+	}
+	return daylyOborot;
+}
+int main() {
+
+	vector<Product*> storeOne;
+
+	pugi::xml_document doc;
+
+			if (!doc.load_file("StoreOne.xml")){
+			cout<<"dasdasda";
+			}
+
+
+			pugi::xml_node products = doc.child("store");
+
+
+			for (pugi::xml_node product = products.child("product"); product;
+					product = product.next_sibling("product")) {
+				cout << "  Name  " << product.child_value("name");
+				cout << "  Marka  "<<product.child_value("marka");
+				cout << "  Model  " << product.child_value("model");
+				cout << "  soldCounter  " << product.child("soldCounter").text().as_int();
+				cout << "  Price  " << product.child("price").text().as_double();
+	            cout<<endl;
+	            Product* someProduct=new Product(product.child_value("name"),product.child_value("marka"),product.child_value("model"),
+	            		product.child("soldCounter").text().as_int(),product.child("price").text().as_double());
+	            storeOne.push_back(someProduct);
+				// object creation
+				// add to vector/map
+			}
+
+
+			cout << endl;
+
+
+			cout<<dailyOborotMagazine(storeOne);
+
+	return 0;
+}

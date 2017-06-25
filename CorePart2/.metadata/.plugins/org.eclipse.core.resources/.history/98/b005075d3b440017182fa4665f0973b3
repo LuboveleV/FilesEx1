@@ -1,0 +1,17 @@
+/*
+ * Store.h
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef STORE_H_
+#define STORE_H_
+
+class Store {
+public:
+	Store();
+	virtual ~Store();
+};
+
+#endif /* STORE_H_ */

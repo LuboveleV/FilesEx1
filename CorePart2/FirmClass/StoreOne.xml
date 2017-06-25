@@ -1,0 +1,23 @@
+<store>
+   <product>
+	  <name>TV</name>
+      <marka>Panasonic</marka>
+      <model>AAAA</model>
+      <soldCounter>5</soldCounter>
+      <price>200</price>   
+   </product>
+   <product>
+	  <name>TV</name>
+      <marka>LG</marka>
+      <model>BBBBB</model>
+      <soldCounter>10</soldCounter>
+      <price>300</price>   
+   </product>
+   <product>
+	  <name>TV</name>
+      <marka>Sony</marka>
+      <model>CCCC</model>
+      <soldCounter>20</soldCounter>
+      <price>400</price>   
+   </product>
+</store>{\rtf1}

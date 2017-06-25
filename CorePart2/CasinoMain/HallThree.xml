@@ -1,0 +1,23 @@
+<hall>
+   <game>
+	  <id>1004</id>
+      <name>Roulette</name>
+      <level>2</level>
+      <startCredit>1290</startCredit>
+      <endCredit>200</endCredit>   
+   </game>
+   <game>
+	  <id>1005</id>
+      <name>BlackJac</name>
+      <level>2</level>
+      <startCredit>1000</startCredit>
+      <endCredit>300</endCredit>   
+   </game>
+   <game>
+	  <id>1006</id>
+      <name>Poker</name>
+      <level>2</level>
+      <startCredit>20</startCredit>
+      <endCredit>400</endCredit>   
+   </game>
+</hall>{\rtf1}

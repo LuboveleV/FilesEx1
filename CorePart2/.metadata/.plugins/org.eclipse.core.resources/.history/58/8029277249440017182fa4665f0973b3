@@ -1,0 +1,18 @@
+/*
+ * Store.cpp
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Store.h"
+
+Store::Store() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Store::~Store() {
+	// TODO Auto-generated destructor stub
+}
+

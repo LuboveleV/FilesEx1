@@ -1,0 +1,155 @@
+12:48:05 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:176:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+Info: Nothing to build for STLExam
+12:48:34 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:177:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+12:58:04 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:181:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:00:27 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:181:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:00:41 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:181:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:02:54 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:185:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:03:21 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:185:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:04:00 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:186:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:07:35 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:186:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:08:22 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:176:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+Info: Nothing to build for STLExam
+Info: Nothing to build for STLExam
+13:09:22 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:183:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:09:33 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:10:56 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:11:06 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:11:21 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:11:30 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:11:50 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:12:29 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+13:12:51 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 

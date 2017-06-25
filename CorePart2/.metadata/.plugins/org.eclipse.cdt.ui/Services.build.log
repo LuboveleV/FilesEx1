@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project Services ****
+rm -rf src/Services.d src/Address.o src/Client.o src/Package.d src/Package.o src/Client.d src/Address.d Services.exe src/Sender.d src/Receiver.o src/Sender.o src/Payment.d src/Services.o src/Receiver.d src/Payment.o 
+
+10:48:09 Build Finished (took 67ms)
+

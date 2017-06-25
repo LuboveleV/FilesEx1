@@ -1,0 +1,17 @@
+/*
+ * Items.h
+ *
+ *  Created on: Jun 13, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef ITEMS_H_
+#define ITEMS_H_
+
+class Items {
+public:
+	Items();
+	virtual ~Items();
+};
+
+#endif /* ITEMS_H_ */

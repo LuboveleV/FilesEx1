@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project PoLyDemo ****
+rm -rf src/Animal.d src/PoLyDemo.o src/Animal.o src/PoLyDemo.d src/Cat.d PoLyDemo.exe src/Cat.o 
+
+10:48:09 Build Finished (took 67ms)
+

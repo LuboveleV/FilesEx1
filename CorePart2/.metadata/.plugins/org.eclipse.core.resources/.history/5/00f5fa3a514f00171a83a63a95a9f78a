@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : STLExapmples.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<vector>
+#include<map>
+using namespace std;
+
+int main() {
+	//Да се напише функция която намира N-те числа с най-много срещания в даден масив
+
+	return 0;
+}
+
+map<int,int> mostFrequentNumber(vector<int>,int number){
+
+}

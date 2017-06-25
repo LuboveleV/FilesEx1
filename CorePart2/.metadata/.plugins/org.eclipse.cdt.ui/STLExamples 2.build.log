@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project STLExamples 2 ****
+rm -rf "src/STLExamples 2.o" "STLExamples 2.exe" "src/STLExamples 2.d" 
+
+10:48:09 Build Finished (took 66ms)
+

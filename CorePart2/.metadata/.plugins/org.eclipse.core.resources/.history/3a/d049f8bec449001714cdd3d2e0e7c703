@@ -1,0 +1,17 @@
+/*
+ * Casino.h
+ *
+ *  Created on: Jun 5, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef CASINO_H_
+#define CASINO_H_
+
+class Casino {
+public:
+	Casino();
+	virtual ~Casino();
+};
+
+#endif /* CASINO_H_ */

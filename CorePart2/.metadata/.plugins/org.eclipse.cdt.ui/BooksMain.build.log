@@ -1,0 +1,5 @@
+10:48:08 **** Clean-only build of configuration Debug for project BooksMain ****
+rm -rf src/pugixml.o src/Book.d src/Functions.o src/Book.o src/Functions.d src/BooksMain.o src/pugixml.d BooksMain.exe src/BooksMain.d 
+
+10:48:09 Build Finished (took 66ms)
+

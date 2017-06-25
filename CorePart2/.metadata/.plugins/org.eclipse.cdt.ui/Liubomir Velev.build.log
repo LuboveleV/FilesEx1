@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project Liubomir Velev ****
+rm -rf src/pugixml.d src/Product.o src/Main.o src/Firm.d src/Main.d src/pugixml.o src/Product.d "Liubomir Velev.exe" src/Firm.o 
+
+10:48:09 Build Finished (took 67ms)
+

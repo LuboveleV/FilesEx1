@@ -1,0 +1,32 @@
+/*
+ * Items.h
+ *
+ *  Created on: Jun 13, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef ITEMS_H_
+#define ITEMS_H_
+#include<iostream>
+using namespace std;
+
+class Items {
+private:
+	int id;
+    string name;
+	double price;
+	int quantity;
+public:
+	Items(int,string,double,int);
+	virtual ~Items();
+	int getId() const;
+	void setId(int id);
+	const string& getName() const;
+	void setName(const string& name);
+	double getPrice() const;
+	void setPrice(double price);
+	int getQuantity() const;
+	void setQuantity(int quantity);
+};
+
+#endif /* ITEMS_H_ */

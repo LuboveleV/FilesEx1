@@ -1,0 +1,18 @@
+/*
+ * Product.cpp
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Product.h"
+
+Product::Product() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Product::~Product() {
+	// TODO Auto-generated destructor stub
+}
+

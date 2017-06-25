@@ -1,0 +1,96 @@
+//============================================================================
+// Name        : STLExam.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+#include <map>
+#include "Items.h"
+#include "pugixml.hpp"
+#include<iterator>
+using namespace std;
+map<int,int> countInts(vector<int>);
+vector<int> findByKey(map<string,vector<int> >,string);
+vector<Items> readXMLFile(string);
+int main() {
+
+    int numbers[] = {1,2,3,4,5,5,5,5,6,7,3};
+    vector<int> someIntVector(numbers,numbers+11);
+    map<int,int> countingMap = countInts(someIntVector);
+    for(map<int,int>::iterator it =countingMap.begin();it!=countingMap.end();it++ )
+    {
+    	cout<<"Number  "<<it->first<<"    Is in map :"<<it->second<<" times"<<endl;
+    }
+
+    cout<<"---------------------\n";
+    map<string,vector<int> > testingMap;
+    testingMap["somevalue"] = someIntVector;
+
+    vector<int> testingVector = findByKey(testingMap,"somevalue");
+    for(size_t i = 0 ;i<testingVector.size();i++)
+    {
+    	cout<<testingVector[i];
+    }
+	return 0;
+}
+vector<int> findByKey(map<string,vector<int> > keyValues,string key)
+		{
+	vector<int> result;
+	for(map<int,int>::iterator it = keyValues.begin();it!=keyValues.end();it++)
+	{
+		if(it->first == key)
+		{
+			vector<int> ints = it->second;
+			for(size_t i = 0 ;i<ints.size();i++)
+			{
+				result.push_back(ints[i]);
+			}
+		}
+	}
+	return result;
+		}
+vector<Items> readXMLFile(string xmlFile)
+		{
+	        vector<Items> resultVector;
+	        pugi::xml_document doc;
+			pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+
+
+		    pugi::xml_node itemsNode = doc.first_child();
+
+		    Items someItem;
+		    for(pugi::xml_node item = itemsNode.child("Item");item;item = item.next_sibling("Item")){
+		    	pugi::xml_node atr;
+		    	atr=item.next_sibling("name");
+		    	someItem.setId(atr.attribute("id").as_int());
+		    	someItem.setName(item.child("name").text().as_string());
+		    	someItem.setPrice(item.child("price").text().as_double());
+		    	someItem.setQuantity(item.child("quantity").text().as_int());
+
+		    	resultVector.push_back(someItem);
+		    }
+		    return resultVector;
+		}
+map<int,int> countInts(vector<int> ints)
+	{
+	  map<int,int> someMap;
+	  for(size_t i=0;i<ints.size();i++)
+	  {
+		  int element = ints[i];
+		  if(someMap.find(element)==someMap.end())
+		  {
+			  someMap[element] = 1;
+		  }
+		  else
+		  {
+			  int val=someMap[element];
+			  val++;
+			  someMap[element] = val;
+		  }
+	  }
+	return someMap;
+    }

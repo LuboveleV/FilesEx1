@@ -1,0 +1,18 @@
+14:55:38 **** Incremental Build of configuration Debug for project Main ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Firm.o" "..\\src\\Firm.cpp" 
+..\src\Firm.cpp: In member function 'Product* Firm::bestArticul()':
+..\src\Firm.cpp:81:55: error: invalid use of member (did you forget the '&' ?)
+   if(storeOne.at(i)->getSoldCounter + storeTwo.at(i)->getSoldCounter + storeThree.at(i)->getSoldCounter   >  best->getSoldCounter){
+                                                       ^
+..\src\Firm.cpp:81:55: error: invalid use of member (did you forget the '&' ?)
+..\src\Firm.cpp:83:55: error: invalid use of member (did you forget the '&' ?)
+      storeOne.at(i)->getSoldCounter + storeTwo.at(i)->getSoldCounter + storeThree.at(i)->getSoldCounter);
+                                                       ^
+..\src\Firm.cpp:83:55: error: invalid use of member (did you forget the '&' ?)
+..\src\Firm.cpp:82:12: warning: unused variable 'best' [-Wunused-variable]
+   Product* best = new Product(storeOne.at(i)->getMarka,storeOne.at(i)->getModel,storeOne.at(i)->getName,storeOne.at(i)->getPrice,
+            ^
+
+14:55:38 Build Finished (took 223ms)
+

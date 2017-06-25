@@ -1,0 +1,26 @@
+/*
+ * Firm.cpp
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Firm.h"
+
+Firm::Firm() {
+	// TODO Auto-generated constructor stub
+
+}
+
+double Firm::getOborot() const {
+	return oborot;
+}
+
+void Firm::setOborot(double oborot) {
+	this->oborot = oborot;
+}
+
+Firm::~Firm() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project FirmClass ****
+rm -rf src/Firm.d src/FirmClass.o src/Firm.o src/Product.o src/pugixml.d FirmClass.exe src/Product.d src/pugixml.o src/Store.d src/Store.o src/FirmClass.d 
+
+10:48:09 Build Finished (took 68ms)
+

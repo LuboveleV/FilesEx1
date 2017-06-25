@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project CasinoMain ****
+rm -rf src/Game.d src/pugixml.o CasinoMain.exe src/Casino.d src/CasinoMain.o src/Hall.o src/Casino.o src/CasinoMain.d src/Hall.d src/pugixml.d src/Game.o 
+
+10:48:09 Build Finished (took 67ms)
+

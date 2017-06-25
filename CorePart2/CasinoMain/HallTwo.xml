@@ -1,0 +1,36 @@
+<hall>
+   <game>
+	  <id>1008</id>
+      <name>Roulette</name>
+      <level>2</level>
+      <startCredit>10</startCredit>
+      <endCredit>40</endCredit>   
+   </game>
+   <game>
+	  <id>1009</id>
+      <name>BlackJac</name>
+      <level>2</level>
+      <startCredit>1000</startCredit>
+      <endCredit>4000</endCredit>   
+   </game>
+   <game>
+	  <id>1010</id>
+      <name>Poker</name>
+      <level>2</level>
+      <startCredit>500</startCredit>
+      <endCredit>0</endCredit>   
+   </game>
+   <game>
+	<id>1011</id>
+	<name>TexasPoker</name>
+	<level>2</level>
+	<startCredit>100</startCredit>
+	<endCredit>500</endCredit>
+   </game>
+   <game>
+	<id>1012</id>
+	<name>OmahaPoker</name>
+	<level>3</level>
+	<startCredit>600</startCredit>
+	<endCredit>1200</endCredit>
+</hall>{\rtf1}

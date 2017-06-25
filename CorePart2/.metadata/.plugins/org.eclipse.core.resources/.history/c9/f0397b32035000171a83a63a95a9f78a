@@ -1,0 +1,18 @@
+/*
+ * Items.cpp
+ *
+ *  Created on: Jun 13, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Items.h"
+
+Items::Items() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Items::~Items() {
+	// TODO Auto-generated destructor stub
+}
+

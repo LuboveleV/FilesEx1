@@ -1,0 +1,56 @@
+//============================================================================
+// Name        : CasinoMain.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include"Game.h"
+#include"Hall.h"
+#include"Casino.h"
+
+using namespace std;
+
+enum Choices{ONE=1,TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,ELEVEN};
+
+int main() {
+
+	Hall firstHall,secondHall,thirdHall;
+
+	firstHall.traverseFile("HallOne.xml");
+	secondHall.traverseFile("HallTwo.xml");
+	thirdHall.traverseFile("HallThree.xml");
+
+	Casino casino;
+	casino.addHall(firstHall);
+	casino.addHall(secondHall);
+	casino.addHall(thirdHall);
+
+	int choice=0;
+	while((choice = casino.enterChoice())!=ELEVEN){
+	switch(choice){
+	case ONE : cout<<firstHall.hallProfit()<<endl; break;
+	case TWO : cout<<secondHall.hallProfit()<<endl; break;
+	case THREE : cout<<thirdHall.hallProfit()<<endl; break;
+	case FOUR: cout<<casino.casinoProfit()<<endl; break;
+	//case FIVE: casino.printMap(casino.lessPlayedGame()); break;
+	//case SIX: casino.printMap(casino.mostPlayedGame()); break;
+	//case SEVEN: casino.printMap(casino.mostProfitableGame()); break;
+	case EIGHT: casino.searchByName();break;
+	case ELEVEN: break;
+	}
+	}
+
+	firstHall.printGamesInHall();
+	secondHall.printGamesInHall();
+	casino.printMap();
+	cout<<firstHall.hallProfit();
+
+
+
+
+
+	return 0;
+}

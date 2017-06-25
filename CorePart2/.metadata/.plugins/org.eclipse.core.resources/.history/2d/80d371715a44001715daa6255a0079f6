@@ -1,0 +1,40 @@
+/*
+ * Firm.cpp
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Firm.h"
+
+double Firm::getOborot() const {
+	return oborot;
+}
+
+Firm::Firm(vector<Product*>& storeOne, vector<Product*>& storeTwo,
+		vector<Product*>& storeThree)
+:storeOne(storeOne),storeTwo(storeTwo),storeThree(storeThree)
+{
+	setOborot(0);
+}
+
+void Firm::storeWithLowOborot() {
+
+
+}
+
+void Firm::information(vector<Product*>& example) {
+
+	for(unsigned int i=0;i<example.size();i++)
+		{
+			example.at(i)->printInfo();
+			cout<<"----------------------------"<<endl;
+}
+
+Firm::~Firm(); {
+	// TODO Auto-generated destructor stub
+	}
+
+void Firm::setOborot(double oborot)
+{
+}

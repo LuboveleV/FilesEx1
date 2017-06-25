@@ -1,0 +1,5 @@
+10:48:09 **** Clean-only build of configuration Debug for project CardsMain ****
+rm -rf src/CardsMain.o src/Cards.d CardsMain.exe src/Cards.o src/CardsMain.d 
+
+10:48:09 Build Finished (took 65ms)
+

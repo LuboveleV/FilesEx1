@@ -1,0 +1,43 @@
+/*
+ * Hall.cpp
+ *
+ *  Created on: Jun 5, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "Hall.h"
+
+Hall::Hall() {
+	// TODO Auto-generated constructor stub
+
+}
+
+void Hall::traverseFile(string xmlName) {
+
+	pugi::xml_document doc;
+		pugi::xml_parse_result result = doc.load_file(xmlName.data());
+
+	    pugi::xml_node hall = doc.child("hall");
+
+	    Game someGame;
+	    for(pugi::xml_node game = hall.child("game");game;game = game.next_sibling("game")){
+	    	someGame.setId(hall.child("id").text().as_int());
+	    	someGame.setName(hall.child("name").text().as_string());
+	    	someGame.setLevel(hall.child("level").text().as_int());
+	    	someGame.setStartCredit(hall.child("startCredit").text().as_int());
+	    	someGame.setEndCredit(hall.child("endCredit").text().as_int());
+	    	halls.push_back(someGame);
+	    }
+}
+
+void Hall::printGamesInHall() {
+	for( int i = 0 ; i < halls.size();i++)
+	{
+		halls[i].printGame();
+	}
+}
+
+Hall::~Hall() {
+	// TODO Auto-generated destructor stub
+}
+

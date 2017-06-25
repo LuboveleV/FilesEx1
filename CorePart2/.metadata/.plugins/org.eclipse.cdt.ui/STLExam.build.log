@@ -1,0 +1,11 @@
+13:12:51 **** Incremental Build of configuration Debug for project STLExam ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\STLExam.o" "..\\src\\STLExam.cpp" 
+..\src\STLExam.cpp: In function 'std::vector<Items> readXMLFile(std::__cxx11::string)':
+..\src\STLExam.cpp:179:27: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+    pugi::xml_parse_result result = doc.load_file(xmlFile.data());
+                           ^
+g++ -o STLExam.exe "src\\Items.o" "src\\STLExam.o" "src\\pugixml.o" 
+
+13:12:52 Build Finished (took 1s.29ms)
+

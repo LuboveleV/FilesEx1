@@ -1,0 +1,17 @@
+/*
+ * Firm.h
+ *
+ *  Created on: May 29, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef FIRM_H_
+#define FIRM_H_
+
+class Firm {
+public:
+	Firm();
+	virtual ~Firm();
+};
+
+#endif /* FIRM_H_ */
