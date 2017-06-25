@@ -1,0 +1,5 @@
+12:54:22 **** Clean-only build of configuration Debug for project charArray ****
+rm -rf src/charArray.o charArray.exe src/charArray.d 
+
+12:54:23 Build Finished (took 109ms)
+

@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:charArray.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture1.exe,org.eclipse.launchbar.core.descriptorType.default\:MatrixArrays.exe,org.eclipse.launchbar.core.descriptorType.default\:Pointers.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture1904.exe,org.eclipse.launchbar.core.descriptorType.default\:Lecture2004.exe,org.eclipse.launchbar.core.descriptorType.default\:Main2DSHape.exe,org.eclipse.launchbar.core.descriptorType.default\:Manager.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Lecture1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lecture1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MatrixArrays.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:charArray.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:charArray.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

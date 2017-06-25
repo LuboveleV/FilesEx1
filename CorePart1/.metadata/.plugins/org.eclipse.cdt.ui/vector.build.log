@@ -1,0 +1,5 @@
+12:54:23 **** Clean-only build of configuration Debug for project vector ****
+rm -rf vector.exe src/vector.o src/vector.d 
+
+12:54:23 Build Finished (took 94ms)
+

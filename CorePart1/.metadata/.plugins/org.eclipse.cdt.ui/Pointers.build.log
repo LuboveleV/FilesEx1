@@ -1,0 +1,5 @@
+12:54:22 **** Clean-only build of configuration Debug for project Pointers ****
+rm -rf src/Pointers.o src/Pointers.d Pointers.exe 
+
+12:54:22 Build Finished (took 78ms)
+

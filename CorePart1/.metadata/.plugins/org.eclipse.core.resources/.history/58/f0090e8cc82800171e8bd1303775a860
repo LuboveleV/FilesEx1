@@ -1,0 +1,19 @@
+/*
+ * JuniorExpert.h
+ *
+ *  Created on: Apr 24, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef JUNIOREXPERT_H_
+#define JUNIOREXPERT_H_
+
+#include "ExpertInherit.h"
+
+class JuniorExpert: public ExpertInherit {
+public:
+	JuniorExpert();
+	virtual ~JuniorExpert();
+};
+
+#endif /* JUNIOREXPERT_H_ */

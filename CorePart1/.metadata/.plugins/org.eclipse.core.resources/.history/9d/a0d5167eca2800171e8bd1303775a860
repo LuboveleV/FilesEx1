@@ -1,0 +1,26 @@
+/*
+ * SeiniorExpert.cpp
+ *
+ *  Created on: Apr 24, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "SeiniorExpert.h"
+
+SeiniorExpert::SeiniorExpert() {
+	// TODO Auto-generated constructor stub
+
+}
+
+const string& SeiniorExpert::getTechnologies() const {
+	return technologies;
+}
+
+void SeiniorExpert::setTechnologies(const string& technologies) {
+	this->technologies = technologies;
+}
+
+SeiniorExpert::~SeiniorExpert() {
+	// TODO Auto-generated destructor stub
+}
+

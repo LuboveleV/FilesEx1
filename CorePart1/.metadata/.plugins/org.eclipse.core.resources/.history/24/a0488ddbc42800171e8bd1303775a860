@@ -1,0 +1,19 @@
+/*
+ * SeiniorExpert.h
+ *
+ *  Created on: Apr 24, 2017
+ *      Author: LyBo-Pc
+ */
+
+#ifndef SEINIOREXPERT_H_
+#define SEINIOREXPERT_H_
+
+#include "ExpertInherit.h"
+
+class SeiniorExpert: public ExpertInherit {
+public:
+	SeiniorExpert();
+	virtual ~SeiniorExpert();
+};
+
+#endif /* SEINIOREXPERT_H_ */

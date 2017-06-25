@@ -1,0 +1,8 @@
+12:08:18 **** Incremental Build of configuration Debug for project Manager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Manager.o" "..\\src\\Manager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ManagerClass.o" "..\\src\\ManagerClass.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SeiniorExpert.o" "..\\src\\SeiniorExpert.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\JuniorExpert.o" "..\\src\\JuniorExpert.cpp" 
+g++ -o Manager.exe "src\\Address.o" "src\\ExpertInherit.o" "src\\JuniorExpert.o" "src\\Manager.o" "src\\ManagerClass.o" "src\\SeiniorExpert.o" 
+Info: Nothing to build for Manager

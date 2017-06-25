@@ -1,0 +1,10 @@
+12:54:55 **** Incremental Build of configuration Debug for project Lecture1904 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Student.o" "..\\src\\Student.cpp" 
+In file included from ..\src\Student.cpp:8:0:
+..\src\Student.h:23:64: error: invalid initialization of non-const reference of type 'Address&' from an rvalue of type 'Address'
+   Student(string = "", string="", string="", Address& =Address());
+                                                                ^
+
+12:54:56 Build Finished (took 203ms)
+

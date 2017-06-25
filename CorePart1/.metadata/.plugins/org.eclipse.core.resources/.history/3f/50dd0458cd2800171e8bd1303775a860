@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : Manager.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#include "ExpertInherit.h"
+#include "ManagerClass.h"
+#include "Address.h"
+int main() {
+
+	Address addressLilli(2,"sofia",5);
+	ExpertInherit ei1("Lilli","Petrova","HR",20,0,addressLilli);
+	ei1.print();
+	return 0;
+}

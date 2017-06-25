@@ -1,0 +1,34 @@
+/*
+ * JuniorExpert.cpp
+ *
+ *  Created on: Apr 24, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "JuniorExpert.h"
+
+JuniorExpert::JuniorExpert() {
+	// TODO Auto-generated constructor stub
+
+}
+
+const string& JuniorExpert::getAtestment() const {
+	return atestment;
+}
+
+void JuniorExpert::setAtestment(const string& atestment) {
+	this->atestment = atestment;
+}
+
+double JuniorExpert::getDegree() const {
+	return degree;
+}
+
+void JuniorExpert::setDegree(double degree) {
+	this->degree = degree;
+}
+
+JuniorExpert::~JuniorExpert() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,15 @@
+11:52:07 **** Incremental Build of configuration Debug for project Main2DSHape ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Rectangle.o" "..\\src\\Rectangle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Main2DSHape.o" "..\\src\\Main2DSHape.cpp" 
+..\src\Main2DSHape.cpp: In function 'int main()':
+..\src\Main2DSHape.cpp:30:18: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i =0;i<figures.size();i++){
+                  ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Shape.o" "..\\src\\Shape.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Trapezoid.o" "..\\src\\Trapezoid.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Triangle.o" "..\\src\\Triangle.cpp" 
+g++ -o Main2DSHape.exe "src\\Main2DSHape.o" "src\\Rectangle.o" "src\\Shape.o" "src\\Trapezoid.o" "src\\Triangle.o" 
+
+11:52:09 Build Finished (took 1s.305ms)
+

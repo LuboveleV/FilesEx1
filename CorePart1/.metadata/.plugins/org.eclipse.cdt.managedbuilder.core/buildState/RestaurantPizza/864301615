@@ -1,0 +1,11 @@
+#
+#Thu Apr 20 18:54:54 EEST 2017
+Debug/RestaurantPizza.exe=1
+Debug/src/RestaurantPizza.o=1
+Debug/src/Delivery.o=1
+src/Delivery.cpp=1
+src/Receiver.cpp=1
+src/Delivery.h=1
+src/RestaurantPizza.cpp=1
+Debug/src/Receiver.o=1
+src/Receiver.h=1

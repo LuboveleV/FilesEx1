@@ -1,0 +1,18 @@
+/*
+ * JuniorExpert.cpp
+ *
+ *  Created on: Apr 24, 2017
+ *      Author: LyBo-Pc
+ */
+
+#include "JuniorExpert.h"
+
+JuniorExpert::JuniorExpert() {
+	// TODO Auto-generated constructor stub
+
+}
+
+JuniorExpert::~JuniorExpert() {
+	// TODO Auto-generated destructor stub
+}
+
